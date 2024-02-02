@@ -1,22 +1,58 @@
 # Vorlesung 1 (20.11.)
 
 ## Python Grundlagen
+ChatGPT ist grundsätzlich eine gute Hilfe beim Programmieren
 
-### Datentypen
+### Variablen
+- Speicherung von Werten zur späteren Verwendung
+- Inhalt kann alles Mögliche sein: Zahlen, Text, Wahr-Falsch etc.
+```python
+variable1 = 1
+variable2 = "Text"
+```
 
-- Integer
+#### Zahlen
+- Integer  
+=> ganze Zahlen
 ```python
 variable1 = 1
 variable2 = variable1 + 2
 ```
 
-- Floats
+- Floats  
+=> Gleitkomma-Zahlen
 ```python
 variable1 = 1.00
 variable2 = variable1 + 3.14
 ```
 
-- String
+- Können konvertiert werden:
+```python
+floatVariable = 3.1415
+intVariable = int(floatVariable)
+intVariable = 3
+floatVariable = float(intVariable)
+```
+
+- Außerdem sind alle üblichen arithmetischen Operationen möglich
+  - Addition (+)
+  - Subtraktion (-)
+  - Multiplikatíon (*)
+  - Division (/) --> Ergebnis ist float
+  - Power (**)
+  - Modulo (%) --> Ergebnis ist Rest aus Division
+  - Floor Division (//) --> Ergebnis ist integer
+  
+
+- Assignments  
+=> Vereinfachen einfache Operationen  
+folgendes beschreibt dasselbe:
+```python
+x = x + 1
+x += 1
+```
+
+#### Strings
 ```python
 variable1 = "Text"
 variable2 = variable1 + "input"
