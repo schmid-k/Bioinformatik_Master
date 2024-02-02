@@ -21,7 +21,11 @@ Umwandlung von Code zu Text (wie hier)
 
 
 ## Github
-
+- Online-Tool zum Speichern und Teilen eines Projektes
+- Cloud-Speicher
+- Ermöglicht Zugriff von mehreren Computern (z.B Uni und Zuhause)
+- Funktioniert zusammen mit Git  
+  => aktuelle Versionen können auf Github "gepushed" werden
 
 ### Pages
 
