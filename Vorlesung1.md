@@ -77,8 +77,36 @@ trueStatement = True
 
 
 #### Strings
+- Text
+- Im Prinzip Listen, die aus Buchstaben bestehen
+- stehen in Anführungszeichen (einfach oder doppelt)
+- für mehrere Zeilen drei Anführungszeichen
 ```python
-variable1 = "Text"
-variable2 = variable1 + "input"
+variable1 = "Hallo"
+variable2 = 'Welt'
+variable3 = '''Text der 
+            über mehrere Zeilen
+            verteilt steht'''
 ```
 
+- Können auch mit arithmetischen Operatoren bearbeitet werden
+```python
+variable4 = variable1 + " " + variable2
+variable4 = "Hallo Welt"
+```
+
+```python
+text = "cous"
+food = text * 2
+food = "couscous"
+```
+
+- In sogenannte f-Strings können variablen eingebaut werden
+```python
+food = "couscous"
+satz = f"Heute gibt es {food}"
+satz = "Heute gibt es couscous"
+```
+
+- Aus Strings lassen sich einzelne Buchstaben oder Worte extrahieren
+- Die länge eines Stings lässt sich mit len(string) bestimmen
