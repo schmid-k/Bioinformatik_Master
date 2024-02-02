@@ -1,8 +1,9 @@
 # Vorlesung 3 (04.12.)
 
 ## Markdown
-Umwandlung von Code zu Text (wie hier)  
-Ähnlich wie LaTeX (glaube ich)  
+- Umwandlung von Code zu Text (wie hier)  
+- Ähnlich wie LaTeX (glaube ich)  
+- Kann auch in eine PDF konvertiert werden (dafür benutzt es glaube ich LaTeX)
   
 [Synthax Guide](https://www.markdownguide.org/basic-syntax/)
 
