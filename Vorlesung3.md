@@ -10,7 +10,8 @@ Umwandlung von Code zu Text (wie hier)
 ## Git
 - Tool zur Versionskontrolle  
 - Speicherung verschiedener Versionen von Dateien  
-=> ermöglicht das Zugreifen auf eine alte Version, die z.B. fehlerfrei funktioniert hat.
+=> ermöglicht das Zugreifen auf eine alte Version, die z.B. fehlerfrei funktioniert hat.  
+- sinnvolle "Commit-Message" um zu verstehen, was sich in der Version geändert hat
 
 ### Branches
 - Abzweigung von einer Version des Projekts
@@ -27,7 +28,28 @@ Umwandlung von Code zu Text (wie hier)
 - Funktioniert zusammen mit Git  
   => aktuelle Versionen können auf Github "gepushed" werden
 
-### Pages
+### Issues
+- Quasi eine To-Do-Liste
+- können einem Projekt zugeordnet werden (falls man an mehreren Projekten arbeitet)
+- können über Keyword in der Commit-Message geschlossen werden
+  - Close
+  - Closes
+  - Closed
+  - Fix
+  - Fixes
+  - Fixed
+  - Resolve
+  - Resolves
+  - Resolved
 
-### 
+### Pages
+Erstellt automatisch eine Website aus den Markdown files (Umwandlung in HTML)
+- Settings --> Pages  
+- Deploy from Branch (meistens master)  
+
+
+### Releases
+Ermöglicht anderen Leuten auf die releaste Version zuzugreifen
+- So können Projekte/Daten über Github referenziert werden
+- DOI für die Releases über Website [Zenodo](https://www.zenodo.org)
 
