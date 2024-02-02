@@ -1,10 +1,17 @@
 # Inhaltsverzeichnis
 
-## 1. Vorlesung 1
+## Vorlesung 1
 
-[Vorlesung 1](Vorlesung1.md)
+[Vorlesung 1](Vorlesung1.md)  
+[Erstes Programm]()  
+[Swap Variables]()  
 
 
-## 2. Vorlesung 2
+## Vorlesung 2
 
-[Vorlesung 2]()
+[Vorlesung 2](Vorlesung2.md)
+
+
+## Eigene Übungen
+
+[Sequenzanalyse]()
