@@ -1,7 +1,9 @@
 # Vorlesung 1 (20.11.)
 
+
 ## Python Grundlagen
 ChatGPT ist grundsätzlich eine gute Hilfe beim Programmieren
+
 
 ### Variablen
 - Speicherung von Werten zur späteren Verwendung
@@ -10,6 +12,7 @@ ChatGPT ist grundsätzlich eine gute Hilfe beim Programmieren
 variable1 = 1
 variable2 = "Text"
 ```
+
 
 #### Zahlen
 - Integer  
@@ -52,14 +55,30 @@ x = x + 1
 x += 1
 ```
 
+
+#### Boolean
+- Kann wahr (True) oder falsch (False) als Werte annehmen
+- Dafür Vergleichsoperatoren
+  - < kleiner als
+  - \> größer als
+  - == ist gleich
+  - \>= größer gleich
+  - <= kleiner gleich
+  - != nicht gleich
+```python
+zahl1 = 1
+zahl2 = 2
+falseStatement = zahl1 == zahl2
+trueStatement = zahl1 <= zahl2
+
+falseStatement = False
+trueStatement = True
+```
+
+
 #### Strings
 ```python
 variable1 = "Text"
 variable2 = variable1 + "input"
 ```
 
-- Boolean
-```python
-variable1 = True
-variable2 = False
-```
