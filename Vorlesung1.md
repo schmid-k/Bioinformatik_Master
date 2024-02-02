@@ -65,6 +65,7 @@ x += 1
   - \>= größer gleich
   - <= kleiner gleich
   - != nicht gleich
+
 ```python
 zahl1 = 1
 zahl2 = 2
