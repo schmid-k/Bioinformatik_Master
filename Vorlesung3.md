@@ -1,6 +1,10 @@
 # Vorlesung 3 (04.12.)
 
 ## Markdown
+Umwandlung von Code zu Text (wie hier)  
+Ähnlich wie LaTeX (glaube ich)  
+  
+[Synthax Guide](https://www.markdownguide.org/basic-syntax/)
 
 ## Git
 
