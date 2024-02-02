@@ -11,4 +11,10 @@ filledDict = {
     "key3": "value3"
 }
 ```
-Di
+
+### Funktionen
+Funktionen sind dazu da um zu funktionieren
+```python
+def meineFunktion():
+    print("Ich bin eine Funktion")
+```
