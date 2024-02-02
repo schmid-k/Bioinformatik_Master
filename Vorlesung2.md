@@ -1,4 +1,4 @@
-# Vorlesung 1 (27.11.)
+# Vorlesung 2 (27.11.)
 
 ## Python Grundlagen (Teil 2)
 
