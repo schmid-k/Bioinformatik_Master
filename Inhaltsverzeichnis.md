@@ -3,8 +3,8 @@
 ## Vorlesung 1
 
 [Vorlesung 1](Vorlesung1.md)  
-[Erstes Programm]()  
-[Swap Variables]()  
+[Erstes Programm](erstesProgramm.py)  
+[Swap Variables](swapVariables.py)  
 
 
 ## Vorlesung 2
@@ -14,4 +14,4 @@
 
 ## Eigene Übungen
 
-[Sequenzanalyse]()
+[Sequenzanalyse](Sequenzanalyse.py)
