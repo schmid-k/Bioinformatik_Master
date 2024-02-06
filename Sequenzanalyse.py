@@ -1,25 +1,27 @@
-startingSequence = "atgctgtcgctatttcg"
+import re
 
-upSequence = startingSequence.upper()
-
+startingSequence = "AGGTCGGTTG"
+correctedSequence = ""
 compSequence = ""
-
 inverted = ""
 
 
-def correctSequence(sequence):
+def correctSequence():
     """Checks if a given sequence uses the right syntax and changes it to upper letters if not already done"""
-    sequence = sequence.upper()
-    for character in sequence:
+    sequence = startingSequence
+    upSequence = sequence.upper()
+    global correctedSequence
+    correctedSequence = re.sub("[0-9 \n]", "", upSequence)
+    for character in correctedSequence:
         if character not in "ATCG":
-            print("Sequence is not correct")
-            break
-    print("Sequence is correct")
+            return print("Sequence is not correct")
+    print("The corrected sequence is:", correctedSequence)
+    return correctedSequence
 
 def complementSequence(sequence):
     """Creates the complementary sequence to a given sequence"""
     global compSequence
-    sequence = sequence.upper()
+    sequence = correctedSequence
     for char in sequence:
         if char == "A":
             compSequence += "T"
@@ -31,16 +33,16 @@ def complementSequence(sequence):
             compSequence += "C"
     return compSequence
 
-
-def invertSequence(sequence):
+def invertSequence():
     """Inverts a given sequence from 3'-5' to 5'-3' and vice versa"""
     global inverted
+    sequence = correctedSequence
     inverted = sequence[::-1]
     return inverted
 
-
-def nucleotides(sequence):
+def nucleotides():
     """Calculates the percentage of the nucleotides in a given sequence"""
+    sequence = startingSequence
     length = len(sequence)
     adenine = sequence.count("A")
     print(f"Adenine: {round(adenine / length * 100, 1)}%")
@@ -52,13 +54,11 @@ def nucleotides(sequence):
     print(f"Cytosine: {round(cytosine / length * 100, 1)}%")
     return ""
 
+def reverseComplement():
+    complementSequence()
+    invertSequence()
+    return ""
 
 
-correctSequence(startingSequence)
-complementSequence(startingSequence)
-invertSequence(compSequence)
+correctSequence()
 
-print(upSequence)
-print(compSequence)
-print(inverted)
-print(nucleotides(upSequence))
