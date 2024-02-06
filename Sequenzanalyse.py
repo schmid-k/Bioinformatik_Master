@@ -3,6 +3,10 @@ import tkinter as tk
 
 from tkinter import simpledialog
 
+root = tk.Tk()
+root.withdraw()
+startingSequence = simpledialog.askstring(title="Sequenzeingabe", prompt="Bitte geben Sie Ihre Sequenz ein:")
+
 correctedSequence = ""
 compSequence = ""
 inverted = ""
@@ -63,15 +67,6 @@ def reverseComplement():
 
 
 correctSequence()
-
-
-# Eine Tkinter-Anwendung erstellen
-root = tk.Tk()
-# Das Fenster sofort wieder ausblenden, da wir nur das Dialogfeld anzeigen möchten
-root.withdraw()
-
-# Ein Dialogfeld anzeigen und die Eingabe des Benutzers in einer Variablen speichern
-startingSequence = simpledialog.askstring(title="Sequenzeingabe", prompt="Bitte geben Sie Ihre Sequenz ein:")
 
 
 # Ein Tkinter-Fenster erstellen
