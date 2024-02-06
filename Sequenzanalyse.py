@@ -1,6 +1,8 @@
 import re
+import tkinter as tk
 
-startingSequence = "AGGTCGGTTG"
+from tkinter import simpledialog
+
 correctedSequence = ""
 compSequence = ""
 inverted = ""
@@ -62,3 +64,32 @@ def reverseComplement():
 
 correctSequence()
 
+
+# Eine Tkinter-Anwendung erstellen
+root = tk.Tk()
+# Das Fenster sofort wieder ausblenden, da wir nur das Dialogfeld anzeigen möchten
+root.withdraw()
+
+# Ein Dialogfeld anzeigen und die Eingabe des Benutzers in einer Variablen speichern
+startingSequence = simpledialog.askstring(title="Sequenzeingabe", prompt="Bitte geben Sie Ihre Sequenz ein:")
+
+
+# Ein Tkinter-Fenster erstellen
+window = tk.Tk()
+
+# Zwei Buttons erstellen
+button1 = tk.Button(window, text="Complementary Sequence", command=complementSequence)
+button2 = tk.Button(window, text="Inverted Sequence", command=invertSequence)
+button3 = tk.Button(window, text="Reverse-Complement Sequence", command=reverseComplement)
+button4 = tk.Button(window, text="Nucleotides Percentage", command=nucleotides)
+
+# Die Buttons zum Fenster hinzufügen
+button1.pack()
+button2.pack()
+button3.pack()
+button4.pack()
+
+# Das Fenster anzeigen
+window.mainloop()
+
+print()
